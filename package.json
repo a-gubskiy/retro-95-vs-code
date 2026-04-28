@@ -1,6 +1,6 @@
 {
-  "name": "classic-95-vscode-theme",
-  "displayName": "Classic 95 VS Code Theme",
+  "name": "retro-95-vscode-theme",
+  "displayName": "Retro 95 VS Code Theme",
   "description": "A retro Visual Studio Code color theme inspired by classic 90s desktop colors. Not affiliated with or endorsed by Microsoft.",
   "version": "0.1.0",
   "publisher": "local",
@@ -13,9 +13,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Classic 95",
+        "label": "Retro 95",
         "uiTheme": "vs",
-        "path": "./themes/classic-95-color-theme.json"
+        "path": "./themes/retro-95-color-theme.json"
       }
     ]
   }
