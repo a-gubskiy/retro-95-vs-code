@@ -38,9 +38,9 @@
     "commandCenter.inactiveBorder": "#808080",
     "commandCenter.debuggingBackground": "#C0C0C0",
     "agentStatusIndicator.background": "#C0C0C0",
-    "toolbar.hoverBackground": "#FFFFFF",
-    "toolbar.hoverOutline": "#000000",
-    "toolbar.activeBackground": "#80808066",
+    "toolbar.hoverBackground": "#808080",
+    "toolbar.hoverOutline": "#FFFFFF",
+    "toolbar.activeBackground": "#808080",
 
     "activityBar.background": "#C0C0C0",
     "activityBar.foreground": "#000000",

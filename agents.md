@@ -60,6 +60,14 @@ The command center / Copilot titlebar control is gray so black product icons rem
 "agentStatusIndicator.background": "#C0C0C0"
 ```
 
+Toolbar hover states use medium gray rather than white because title-bar navigation buttons keep their white foreground while hovered:
+
+```json
+"toolbar.hoverBackground": "#808080",
+"toolbar.hoverOutline": "#FFFFFF",
+"toolbar.activeBackground": "#808080"
+```
+
 The editor stays white with black text so code reads like a classic document area, while empty workbench surfaces use the teal desktop color:
 
 ```json
