@@ -68,6 +68,14 @@ Toolbar hover states use medium gray rather than white because title-bar navigat
 "toolbar.activeBackground": "#808080"
 ```
 
+Scrollbars stay gray in all interaction states; avoid navy active scrollbars because dragged scroll thumbs should feel like classic controls, not selected title bars:
+
+```json
+"scrollbarSlider.background": "#C0C0C0",
+"scrollbarSlider.hoverBackground": "#A0A0A0",
+"scrollbarSlider.activeBackground": "#808080"
+```
+
 The editor stays white with black text so code reads like a classic document area, while empty workbench surfaces use the teal desktop color:
 
 ```json

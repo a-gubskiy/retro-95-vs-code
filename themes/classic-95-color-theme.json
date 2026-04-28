@@ -259,9 +259,9 @@
     "notificationToast.border": "#808080",
 
     "scrollbar.shadow": "#808080",
-    "scrollbarSlider.background": "#80808066",
-    "scrollbarSlider.hoverBackground": "#80808099",
-    "scrollbarSlider.activeBackground": "#000080",
+    "scrollbarSlider.background": "#C0C0C0",
+    "scrollbarSlider.hoverBackground": "#A0A0A0",
+    "scrollbarSlider.activeBackground": "#808080",
     "progressBar.background": "#000080",
 
     "badge.background": "#000080",
