@@ -1,13 +1,44 @@
 # Retro 95 VS Code Theme
 
-Retro 95 VS Code Theme is part of the Retro 95 project: a small set of themes inspired by classic 90s desktop colors.
+Retro 95 is a local Visual Studio Code theme extension for the Retro 95 project.
+
+It mirrors the nearby browser theme's classic 90s desktop palette with a navy title bar, teal desktop-like empty workbench, gray chrome, and black-on-white editor text.
 
 This project is not affiliated with or endorsed by Microsoft.
 
-## Repositories
+## Local Testing
 
-- VS Code theme: [a-gubskiy/retro-95-vs-code](https://github.com/a-gubskiy/retro-95-vs-code)
-- Browser theme: [a-gubskiy/retro-95-browser](https://github.com/a-gubskiy/retro-95-browser)
+1. Open this folder in VS Code.
+2. Press `F5`.
+3. In the Extension Development Host window, run `Preferences: Color Theme`.
+4. Choose `Retro 95`.
+
+## Validation
+
+```sh
+npm run validate
+```
+
+## Packaging And Publishing
+
+The Marketplace listing can use a different README than GitHub.
+
+- `README.md` is the repository README.
+- `README.marketplace.md` is temporarily copied into `README.md` only while packaging or publishing.
+
+Commands:
+
+```sh
+npm run package:vsix
+npm run publish:marketplace
+```
+
+Extra `vsce` arguments can be passed through npm, for example:
+
+```sh
+npm run package:vsix -- --out retro-95.vsix
+npm run publish:marketplace -- --pat YOUR_TOKEN
+```
 
 ## Palette
 
@@ -20,24 +51,7 @@ This project is not affiliated with or endorsed by Microsoft.
 | Highlight | `255, 255, 255` | `#FFFFFF` |
 | Text | `0, 0, 0` | `#000000` |
 
-## Install Locally
+## Related Repositories
 
-### Extension Development Host
-
-1. Open this folder in Visual Studio Code.
-2. Press `F5`.
-3. In the new Extension Development Host window, run `Preferences: Color Theme`.
-4. Choose `Retro 95`.
-
-### Direct Local Extension
-
-1. Copy or symlink this folder into `~/.vscode/extensions/retro-95-vscode-theme-0.1.0`.
-2. Reload Visual Studio Code.
-3. Run `Preferences: Color Theme`.
-4. Choose `Retro 95`.
-
-## Validate
-
-```sh
-node -e "JSON.parse(require('node:fs').readFileSync('package.json','utf8')); JSON.parse(require('node:fs').readFileSync('themes/retro-95-color-theme.json','utf8')); console.log('theme ok')"
-```
+- VS Code theme: [a-gubskiy/retro-95-vs-code](https://github.com/a-gubskiy/retro-95-vs-code)
+- Browser theme: [a-gubskiy/retro-95-browser](https://github.com/a-gubskiy/retro-95-browser)

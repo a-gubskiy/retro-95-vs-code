@@ -1,5 +1,7 @@
 .gitignore
 .vscode/
 agents.md
+README.marketplace.md
+scripts/
 images/icon-128.png
 *.vsix
