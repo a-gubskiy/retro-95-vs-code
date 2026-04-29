@@ -33,6 +33,8 @@ npm run package:vsix
 npm run publish:marketplace
 ```
 
+`publish:marketplace` already includes a fixed `--baseImagesUrl` that points Marketplace screenshots to the public GitHub repository on `main`.
+
 Extra `vsce` arguments can be passed through npm, for example:
 
 ```sh
