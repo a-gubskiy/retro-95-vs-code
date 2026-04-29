@@ -9,6 +9,12 @@ Retro 95 is a Visual Studio Code color theme inspired by classic 90s desktop UIs
 - Gray classic window chrome (`#C0C0C0`)
 - White editor background with black text for document-like readability
 
+## Preview
+
+![Retro 95 theme preview showing the editor, activity bar, and side panels](images/screenshot-1.png)
+
+![Retro 95 theme preview showing additional workbench surfaces and controls](images/screenshot-2.png)
+
 ## Install
 
 1. Open Extensions in VS Code.
