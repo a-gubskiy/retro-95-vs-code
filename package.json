@@ -2,7 +2,7 @@
   "name": "retro-95-vscode-theme",
   "displayName": "Retro 95 VS Code Theme",
   "description": "A nostalgic retro Visual Studio Code color theme inspired by classic 90s desktop colors, early personal computers, and the golden age of software development.",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "icon": "images/icon-256.png",
   "publisher": "devdigest",
   "license": "Apache-2.0",
